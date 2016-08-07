@@ -1,0 +1,45 @@
+#contain{
+	text-align: center;
+	margin-top: 100px;
+	min-width: 850px;
+}
+
+#contain > a{
+	text-align: left;
+	position: relative;
+	display: inline-block;
+	background-color: #fff;
+	padding: 7px;
+	margin: 0 60px 30px;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+}
+
+#contain > a:hover{
+	box-shadow:0 0 7px #000;
+}
+
+#contain > a > img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 1;
+}
+
+.border{
+	z-index: 0;
+	display: block;
+	position: absolute;
+	background-color: #F90;
+	top: -100%;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .3s ease-out;
+}
+
+#contain > a:hover span{
+	top: 0;
+	left: 0;
+}

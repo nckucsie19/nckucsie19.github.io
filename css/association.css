@@ -1,0 +1,43 @@
+html, body{
+	overflow-y: auto;
+}
+
+#contain{
+	position: relative;
+	top: 80px;
+	width: 1100px;
+	left: 80px;
+	margin-bottom: 70px;
+}
+
+.contain-wrapper{
+	margin: 30px 0;
+}
+
+.title{
+	width: 1060px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	text-align: center;
+	background-color: #666;
+	background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                        transparent 75%, transparent);
+	color: #fff;
+}
+
+.title:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.title-contain{
+	margin-top: 30px;
+	width: 1000px;
+	background: linear-gradient(-135deg, transparent 25px, #fff 0);
+	padding: 10px 30px 30px 30px;
+	line-height: 1.5;
+	font-size: 18px;
+	text-align: left;
+}

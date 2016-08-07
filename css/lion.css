@@ -1,0 +1,49 @@
+#contain{
+	width: 100%;
+	min-width: 1200px;
+}
+
+#top-picture-wrapper{
+	background-color: #000;
+	width: 100%;
+	height: 350px;
+	box-shadow: 0 0 10px 0;
+}
+
+#top-picture-wrapper > img{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 55%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+
+#article{
+	background: linear-gradient(to bottom, #fff, #c1c1c1);
+	width: 950px;
+	margin: 50px 150px;
+	position: relative;
+	top: -100px;
+	border-radius: 20px;
+}
+
+#article > div{
+	padding: 0 30px;
+	font-size: 18px;
+	line-height: 1.8;
+	margin: 20px 0;
+}
+
+#article > img{
+	width: 420px;
+	height: 225px;
+	position: relative;
+	top: 50px;
+	text-align: left;
+	display: inline-block;
+	margin-left: 35px;
+	margin-bottom: 50px;
+	box-shadow: 0 5px 10px 0;
+}

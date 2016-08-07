@@ -1,11 +1,61 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<head>
+	<title>home</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/weball.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<script type="text/javascript">
+		function notyet() {
+			alert("尚未推出，敬請期待");
+		}
+	</script>
+	<header id="header">
+		<div id="logo-wrapper">
+			<a href="index.html"><img id="logo" src="static/logo.jpg"/></a>
+		</div>
+		<nav>
+        	<ul class="menu">
+                <li><a href="html/association.html" title="系學會">系學會<span></span></a></li>
+                <li><a href="html/team.html" title="系隊">系隊<span></span></a></li>
+                <li><a href="html/activity.html" title="活動">活動<span></span></a></li>
+                <li><a href="html/lion.html" title="醒獅">醒獅<span></span></a></li>
+                <li><a href="html/academic.html" title="學業相關">學業相關<span></span></a></li>
+                <li><a onclick="notyet();" title="其他">其他<span></span></a></li>
+            </ul>
+        </nav>
+        <div class="contact">為系上服務、爭取權益、凝聚感情</div>
+	</header>
+	<article id="contain">
+		<a href="html/association.html">
+			<img src="static/index/association.png"/>
+			<span class="border"></span>
+		</a>
+		<a href="html/team.html">
+			<img src="static/index/team.png"/>
+			<span class="border"></span>
+		</a>
+		<a href="html/activity.html">
+			<img src="static/index/activity.png"/>
+			<span class="border"></span>
+		</a>
+		<a href="html/lion.html">
+			<img src="static/index/lion.png"/>
+			<span class="border"></span>
+		</a>
+		<a href="html/academic.html">
+			<img src="static/index/academic.png"/>
+			<span class="border"></span>
+		</a>
+		<a onclick="notyet();">
+			<img src="static/index/others.png"/>
+			<span class="border"></span>
+		</a>
+	</article>
+	<footer id="footer">
 
-		<title>NCKU-CSIE 19th</title>
-		
-	</head>
-	<body>
-		19th 系學會<br>
-	</body>
+	</footer>
+</body>
 </html>

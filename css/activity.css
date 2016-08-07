@@ -1,0 +1,240 @@
+#head-contain{
+	width: 100%;
+	min-width: 800px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.banner{
+	position: relative;
+	text-align: left;
+	width: 100px;
+	height: 350px;
+	display: inline-block;
+	margin: 0 35px;
+}
+
+.banner-contain{
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	-webkit-transition: all .3s ease-out;
+}
+
+.banner:hover .banner-contain{
+	height: 400px;
+	cursor: pointer;
+}
+
+.banner-contain > img{
+	width: 40px;
+	height: 170px;
+	padding-left: 10px;
+	padding-top: 20px;
+	-webkit-transition: all .3s ease-out;
+}
+
+.banner:hover .banner-contain > img{
+	width: 80px;
+	height: 340px;
+}
+
+.bot-triangle{
+	position: relative;
+	top: 250px;
+	-webkit-transition: all .3s ease-out;
+}
+
+.banner:hover .bot-triangle{
+	top: 400px;
+}
+
+.bot-triangle .left{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 50px 0 0;
+}
+
+.bot-triangle .right{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 50px 50px 0;
+	position: relative;
+	left: 50px;
+	top: -50px;
+}
+
+/*----------------------------------*/
+
+.first .banner-contain{
+	background-color: #B91414;
+}
+
+.first .bot-triangle .left{
+	border-color: #B91414 transparent transparent transparent;
+}
+
+.first .bot-triangle .right{
+	border-color: transparent #B91414 transparent transparent;
+}
+
+/*-----------------------------------*/
+
+.second .banner-contain{
+	background-color: #CE6A00;
+}
+
+.second .bot-triangle .left{
+	border-color: #CE6A00 transparent transparent transparent;
+}
+
+.second .bot-triangle .right{
+	border-color: transparent #CE6A00 transparent transparent;
+}
+
+/*-------------------------------------*/
+
+.third .banner-contain{
+	background-color: #C4A500;
+}
+
+.third .bot-triangle .left{
+	border-color: #C4A500 transparent transparent transparent;
+}
+
+.third .bot-triangle .right{
+	border-color: transparent #C4A500 transparent transparent;
+}
+
+/*--------------------------------------*/
+
+.forth .banner-contain{
+	background-color: #2A7F62;
+}
+
+.forth .bot-triangle .left{
+	border-color: #2A7F62 transparent transparent transparent;
+}
+
+.forth .bot-triangle .right{
+	border-color: transparent #2A7F62 transparent transparent;
+}
+
+/*----------------------------------------*/
+
+.fifth .banner-contain{
+	background-color: #5A829E;
+}
+
+.fifth .bot-triangle .left{
+	border-color: #5A829E transparent transparent transparent;
+}
+
+.fifth .bot-triangle .right{
+	border-color: transparent #5A829E transparent transparent;
+}
+
+/*-----------------------------------------*/
+
+.sixth .banner-contain{
+	background-color: #69227D;
+}
+
+.sixth .bot-triangle .left{
+	border-color: #69227D transparent transparent transparent;
+}
+
+.sixth .bot-triangle .right{
+	border-color: transparent #69227D transparent transparent;
+}
+
+
+/*--------------------------------------------*/
+
+#contain{
+	position: absolute;
+	top: 100px;
+	left: -1200px;
+	width: 1100px;
+	height: 450px;
+	background: linear-gradient(to left, #fff, #C1C1C1);
+	border-radius: 0px 10px 10px 0px;
+}
+
+#contain > article{
+	opacity: 0;
+	position: absolute;
+	top: 30px;
+	left: 130px;
+	width: 930px;
+	height: 400px;
+}
+
+#left-rect{
+	position: fixed;
+	top: 130px;
+	left: -1200px;
+}
+
+#left-rect > div{
+	width: 50px;
+	height: 30px;
+	margin-bottom: 20px;
+	border-radius: 0 10px 10px 0px;
+	font-size: 15px;
+	line-height: 30px;
+	padding-left: 5px;
+}
+
+#left-rect > div:hover{
+	cursor: pointer;
+}
+
+#left-rect:last-child{
+	margin-bottom: 0;
+}
+
+.picture-wrapper{
+	width: 300px;
+	height: 350px;
+	padding: 20px;
+}
+
+.picture-wrapper .img{
+	width: 240px;
+	height: 135px;
+	padding: 5px;
+	background-color: #fff;
+	position: relative;
+}
+
+#lol-logo{
+	width: 300px;
+	height: 100px;
+	position: relative;
+	top: 70px;
+	left: -20px;
+}
+
+.article-wrapper{
+	width: 500px;
+	height: 350px;
+	margin-left: 50px;
+	position: relative;
+	top: -390px;
+	left: 330px;
+	font-size: 18px;
+	display: table;
+}
+
+.article-wrapper > div{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#week{
+	position: relative;
+	top: -15px;
+}
