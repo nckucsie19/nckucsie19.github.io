@@ -76,6 +76,11 @@ $(document).ready(function() {
 		show_contain(5);
 	});
 
+	$(before_banner[6]).click(function(event) {
+		/* Act on the event */
+		show_contain(6);
+	});
+
 	/*-------------the same---------------------*/
 	$(left_rect[0]).click(function(event) {
 		/* Act on the event */
@@ -105,6 +110,11 @@ $(document).ready(function() {
 	$(left_rect[5]).click(function(event) {
 		/* Act on the event */
 		show_contain(5);
+	});
+
+	$(left_rect[6]).click(function(event) {
+		/* Act on the event */
+		show_contain(6);
 	});
 
 	/*---------------------------------------------*/

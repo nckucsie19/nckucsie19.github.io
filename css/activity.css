@@ -150,6 +150,19 @@
 	border-color: transparent #69227D transparent transparent;
 }
 
+/*-------------------------------------------*/
+
+.seventh .banner-contain{
+	background-color: #9B7645;
+}
+
+.seventh .bot-triangle .left{
+	border-color: #9B7645 transparent transparent transparent;
+}
+
+.seventh .bot-triangle .right{
+	border-color: transparent #9B7645 transparent transparent;
+}
 
 /*--------------------------------------------*/
 
